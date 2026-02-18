@@ -175,3 +175,16 @@ code {
     border: none;
     border-radius: 0;
 }
+
+/* ── Two-column layout ─────────────────────────────────── */
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+@media (max-width: 600px) {
+    .two-column {
+        grid-template-columns: 1fr;
+    }
+}
