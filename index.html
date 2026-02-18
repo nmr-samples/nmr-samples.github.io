@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMR Samples</title>
+    <link rel="stylesheet" href="css/docs.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>NMR Samples</h1>
+            <nav class="nav">
+                <a href="https://nmr-samples.github.io/online/">Online App</a>
+                <a href="https://nmr-samples.github.io/topspin/">Topspin Integration</a>
+                <a href="https://github.com/nmr-samples/schema">Schema</a>
+                <!-- <a href="https://github.com/nmr-samples" target="_blank">GitHub</a> -->
+                <a href="https://waudbylab.org/" target="_blank">Waudby Lab</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <h1>NMR Samples</h1>
+
+        <p>Structured metadata for NMR samples, stored as JSON files alongside your
+            experiment data. Record sample composition, buffer conditions, tube details, and
+            laboratory references in a format that's searchable, portable, and
+            machine-readable. All tools in the ecosystem read and write the same
+            <a href="https://github.com/nmr-samples/schema">open schema</a>.
+        </p>
+
+        <h2>Two Ways to Use It</h2>
+
+        <p><strong><a href="https://nmr-samples.github.io/online/">Online</a></strong> —
+            A browser-based sample manager. No installation required (Chrome/Edge). All data
+            stays on your computer. Also available for
+            <a href="https://nmr-samples.github.io/online/getting-started.html">offline use</a>.
+        </p>
+
+        <p><strong><a href="https://nmr-samples.github.io/topspin/">Topspin</a></strong> —
+            An integrated sample manager for Topspin (v3+). Provides a GUI
+            (<code>samples</code>) and drop-in replacements for injection and ejection commands
+            (<code>ija</code>, <code>eja</code>, <code>sxa</code>) that capture metadata at
+            the point of use.
+            <a href="https://nmr-samples.github.io/topspin/installation.html">Installation
+                takes about 5 minutes</a>.
+        </p>
+
+        <h2>Ecosystem</h2>
+
+        <p>Sample metadata files are portable and supported by several tools beyond the
+            two apps above:
+            <a href="https://github.com/waudbygroup/NMRTools.jl">NMRTools.jl</a> (Julia
+            library for NMR data handling),
+            <a href="https://github.com/nomad-nmr">NOMAD</a> (v3.6.3+), and
+            <a href="https://www.nmr-titan.com">NMR TITAN</a> (development version).
+        </p>
+
+        <h2>Contributing</h2>
+
+        <p>Report bugs or request features via GitHub Issues on the relevant repository.
+            For schema changes, open an issue on the
+            <a href="https://github.com/nmr-samples/schema">schema repository</a> with a
+            clear use case. See the
+            <a href="https://github.com/nmr-samples">GitHub organisation</a> for development
+            details.
+        </p>
+
+        <p>Developed by <a href="https://waudbylab.org/">Chris Waudby</a>,
+            UCL School of Pharmacy.
+            <a href="mailto:c.waudby@ucl.ac.uk">c.waudby@ucl.ac.uk</a>
+        </p>
+
+    </div>
+</body>
+
+</html>
